@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vanilla Slider JS v1.02</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+	<!--Slider Body Start-->
+	<div class="slider-body"> 
+		<div class="slide" id="slide-one"> <!--Slide-1-->
+			<img src="pic/1.jpg" alt="">
+			<p class="title"></p>
+		</div>
+
+		<div class="slide"> <!--Slide-2-->
+			<img src="pic/2.jpg" alt="">
+			<p class="title"></p>
+		</div>
+
+		<div class="slide"> <!--Slide-3-->
+			<img src="pic/3.jpg" alt="">
+			<p class="title"></p>
+		</div>
+
+		<div class="slide"> <!--Slide-4-->
+			<img src="pic/4.jpg" alt="">
+			<p class="title"></p>
+		</div>
+
+		<!--Button-->
+		<a  id="prev"  class="button" onclick="prevSlide()">&#10094</a>
+		<a  id="next"  class="button" onclick="nextSlide()">&#10095</a>
+		<a  id="start" onclick="startPlay()"></a>
+		<a  id="stop"  onclick="stopPlay()"></a>
+	</div>
+	<!--Slider Body Finish-->
+</div>
+	<script src="script.js"></script>
+</body>
+</html>
